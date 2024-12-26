@@ -1,0 +1,11 @@
+CRITICAL - 2021-11-20 06:48:49 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('profile/index', Array, true)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('profile/index')
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#9 {main}

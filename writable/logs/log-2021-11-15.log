@@ -1,0 +1,28 @@
+ERROR - 2021-11-15 09:13:09 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+ERROR - 2021-11-15 09:13:51 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2021-11-15 09:14:09 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-11-15 22:21:25 --> Undefined property: CodeIgniter\View\View::$endSection
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\auth\login.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\yerob\\...', 87, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('auth/login', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('auth/login')
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-15 23:05:49 --> Undefined variable: base_url
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\main\landing-page.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 11, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('main/landing-pa...', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('main/landing-pa...')
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}

@@ -1,0 +1,258 @@
+CRITICAL - 2021-11-29 00:39:22 --> Object of class stdClass could not be converted to string
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\main-page\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\Users\\yerob\\...', 33, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('main-page/index', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(18): view('main-page/index', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-29 00:39:45 --> Object of class stdClass could not be converted to string
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\main-page\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\Users\\yerob\\...', 46, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('main-page/index', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(18): view('main-page/index', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-29 00:48:30 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 00:51:35 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 00:51:36 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 00:53:53 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 00:53:53 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 00:53:54 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 00:53:54 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 00:53:55 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 00:53:55 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 00:53:55 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 00:53:55 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 00:53:55 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 01:04:37 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 01:43:37 --> Trying to get property 'pager' of non-object
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\yerob\\...', 18, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#6 {main}
+CRITICAL - 2021-11-29 03:44:26 --> Undefined offset: -1
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Buku.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\yerob\\...', 127, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->detailBuku('as')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#6 {main}
+CRITICAL - 2021-11-29 05:22:10 --> Undefined variable: keyword
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\main-page\cariBuku.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 10, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('main-page/cariB...', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Buku.php(287): view('main-page/cariB...')
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->cariBuku()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-29 05:30:36 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 05:32:21 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 05:32:22 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 06:01:58 --> Call to a member function paginate() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 06:03:47 --> Call to a member function orderBy() on array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 06:29:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 06:37:29 --> syntax error, unexpected '}'
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\yerob\\...')
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Buku...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Buku...')
+#3 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): spl_autoload_call('App\\Models\\Buku...')
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#9 {main}
+CRITICAL - 2021-11-29 08:30:18 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('buku/detailBuku...')
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('buku/detailBuku...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#6 {main}
+CRITICAL - 2021-11-29 08:30:34 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\yerob\\...')
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#9 {main}
+CRITICAL - 2021-11-29 08:30:37 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\yerob\\...')
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#9 {main}
+CRITICAL - 2021-11-29 08:30:46 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\yerob\\...')
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#9 {main}
+CRITICAL - 2021-11-29 08:34:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->cariBuku()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 08:37:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->cariBuku()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-29 08:40:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->cariBuku()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}

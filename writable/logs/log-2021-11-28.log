@@ -1,0 +1,199 @@
+CRITICAL - 2021-11-28 00:01:51 -->  is not a valid rule.
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('judul', 'judul', 'as', Array, Array)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Buku.php(192): CodeIgniter\Controller->validate(Array)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->ubah()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#9 {main}
+CRITICAL - 2021-11-28 00:07:02 --> Undefined variable: buku
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Buku.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 172, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->formUbah('as')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#6 {main}
+CRITICAL - 2021-11-28 00:22:09 --> Undefined property: App\Controllers\Buku::$equest
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Buku.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\yerob\\...', 183, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->ubah()
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#6 {main}
+CRITICAL - 2021-11-28 01:17:19 --> Cannot use temporary expression in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 01:24:48 --> Call to a member function getError() on null
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->ubah()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-28 01:30:09 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$getError
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Buku.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\yerob\\...', 202, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->ubah()
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#6 {main}
+CRITICAL - 2021-11-28 03:39:51 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 13
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\Users\\yerob\\...', 385, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Router\Router.php(385): preg_match('#^penulis/ubah)...', 'user', Array)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Router\Router.php(155): CodeIgniter\Router\Router->checkRoutes('user')
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('user')
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#8 {main}
+CRITICAL - 2021-11-28 03:40:13 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 13
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\Users\\yerob\\...', 385, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Router\Router.php(385): preg_match('#^penulis/ubah)...', 'user', Array)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Router\Router.php(155): CodeIgniter\Router\Router->checkRoutes('user')
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('user')
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#8 {main}
+CRITICAL - 2021-11-28 03:40:55 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 13
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\Users\\yerob\\...', 385, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Router\Router.php(385): preg_match('#^penulis/ubah)...', 'user', Array)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Router\Router.php(155): CodeIgniter\Router\Router->checkRoutes('user')
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('user')
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#8 {main}
+CRITICAL - 2021-11-28 03:56:46 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\admin\penulis\formUbahPenulis.php(37): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\Users\\yerob\\...', 37, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/penulis/f...', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Penulis.php(65): view('admin/penulis/f...', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Penulis->formUbah('1')
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-28 03:58:02 --> Undefined variable: segments
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Penulis.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 27, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Penulis->formTambah()
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#6 {main}
+CRITICAL - 2021-11-28 04:05:15 --> Undefined property: stdClass::$nama
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\admin\penulis\formUbahPenulis.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\yerob\\...', 30, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/penulis/f...', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Penulis.php(58): view('admin/penulis/f...', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Penulis->formUbah('1')
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-28 10:24:11 --> Undefined offset: -1
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Buku.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\yerob\\...', 127, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->detailBuku('as')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#6 {main}
+CRITICAL - 2021-11-28 10:24:20 --> Undefined offset: -1
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Buku.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\yerob\\...', 127, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->detailBuku('asas')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#6 {main}
+CRITICAL - 2021-11-28 22:05:07 --> Too few arguments to function App\Controllers\Penulis::formUbah(), 0 passed in C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Penulis->formUbah()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-28 22:05:27 --> Too few arguments to function App\Controllers\Penulis::formUbah(), 0 passed in C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Penulis->formUbah()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-28 22:14:40 --> Undefined offset: -1
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Buku.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\yerob\\...', 127, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->detailBuku('as')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#6 {main}
+CRITICAL - 2021-11-28 22:14:46 --> Undefined offset: -1
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Buku.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\yerob\\...', 127, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Buku->detailBuku('as')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#6 {main}
+CRITICAL - 2021-11-28 22:19:39 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('user-profile/in...', Array, true)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\User.php(22): view('user-profile/in...', Array)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->index()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#8 {main}
+CRITICAL - 2021-11-28 23:13:52 --> Undefined variable: penulis
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\user-profile\formUbahNama.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 30, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('user-profile/fo...', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\User.php(44): view('user-profile/fo...', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->formUbahNama()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-28 23:44:40 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Admin.php(39): view('admin/index', Array)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin->userList()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#8 {main}
+CRITICAL - 2021-11-28 23:51:28 --> Call to a member function deleteUserDownload() on null
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin->hapusUser()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-28 23:52:51 --> Call to a member function deleteUserDownload() on null
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin->hapusUser()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}

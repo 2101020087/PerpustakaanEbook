@@ -1,0 +1,26 @@
+.content_wrapper {
+  margin: auto;
+}
+.container {
+  margin-top: 5%;
+}
+
+.category {
+  box-shadow: 0 16px 64px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10%;
+  padding: 5%;
+  margin-bottom: 1%;
+}
+
+.book_list {
+  box-shadow: 0 16px 64px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10%;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+.journal_list {
+  box-shadow: 0 16px 64px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10%;
+  padding: 5%;
+}

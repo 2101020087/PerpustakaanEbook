@@ -1,0 +1,470 @@
+CRITICAL - 2021-11-21 00:19:41 --> Invalid file: main-pages/table.php
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main-pages/tabl...')
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('main-pages/tabl...', Array, true)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\main-page\index.php(9): view('main-pages/tabl...')
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('main-page/index', Array, true)
+#6 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('main-page/index')
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#12 {main}
+ERROR - 2021-11-21 06:23:57 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2021-11-21 06:44:23 --> Error connecting to the database: Class 'SQLite3' not found
+CRITICAL - 2021-11-21 07:10:30 --> Invalid file: \App\Views\Auth\login.php
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\Auth...')
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(429): view('\\App\\Views\\Auth...', Array)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth...', Array)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->login()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#9 {main}
+CRITICAL - 2021-11-21 07:11:04 --> Invalid file: auth/templates/index.php
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/templates/...')
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('auth/templates/...', Array, true)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(429): view('\\App\\Views\\Auth...', Array)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth...', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->login()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 07:11:07 --> Invalid file: auth/templates/index.php
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/templates/...')
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('auth/templates/...', Array, true)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(429): view('\\App\\Views\\Auth...', Array)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth...', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->login()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 10:22:41 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(429): view('\\App\\Views\\Auth...', Array)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth...', Array)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->login()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#9 {main}
+CRITICAL - 2021-11-21 10:51:36 --> Class name must be a valid object or a string
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Config\Services.php(86): CodeIgniter\Config\BaseService::getSharedInstance('activator', NULL)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(937): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(195): service('activator')
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#11 {main}
+CRITICAL - 2021-11-21 10:53:35 --> Class name must be a valid object or a string
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Config\Services.php(86): CodeIgniter\Config\BaseService::getSharedInstance('activator', NULL)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(937): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(195): service('activator')
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#11 {main}
+CRITICAL - 2021-11-21 10:56:37 --> Undefined variable: config
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\auth\login-user.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 19, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('auth/login-user', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('auth/login-user', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 11:01:49 --> Undefined variable: config
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\auth\login-user.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 19, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('auth/login-user', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('auth/login-user', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 11:01:51 --> Undefined variable: config
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\auth\login-user.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 19, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('auth/login-user', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('auth/login-user', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 11:04:38 --> Undefined variable: config
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\auth\login-user.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 19, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('auth/login-user', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('auth/login-user', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 11:04:39 --> Undefined variable: config
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\auth\login-user.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 19, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('auth/login-user', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('auth/login-user', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 11:04:40 --> Undefined variable: config
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\auth\login-user.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 19, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('auth/login-user', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('auth/login-user', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 11:04:41 --> Undefined variable: config
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\auth\login-user.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 19, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('auth/login-user', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('auth/login-user', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 11:04:52 --> Undefined variable: config
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\auth\login-user.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 19, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('auth/login-user', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('auth/login-user', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 11:05:36 --> Undefined variable: config
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\auth\login-user.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 19, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('auth/login-user', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\User.php(15): view('auth/login-user', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->loginUser()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 11:05:41 --> Undefined variable: config
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\auth\login-user.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 19, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('auth/login-user', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('auth/login-user', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 11:05:41 --> Undefined variable: config
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\auth\login-user.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 19, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('auth/login-user', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Home.php(9): view('auth/login-user', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 11:33:52 --> Call to undefined function logged_in()
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('templates/navba...', NULL, true)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\templates\index.php(41): CodeIgniter\View\View->include('templates/navba...')
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('templates/index', Array, true)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('main-page/index', Array, true)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\User.php(9): view('main-page/index', Array)
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->index()
+#10 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#14 {main}
+CRITICAL - 2021-11-21 12:14:36 --> You do not have sufficient permissions to access that page.
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-21 12:15:51 --> You do not have sufficient permissions to access that page.
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#5 {main}
+CRITICAL - 2021-11-21 12:27:27 --> Invalid file: profile/index.php
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile/index.p...')
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('profile/index', Array, true)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\User.php(9): view('profile/index', Array)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->index()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#8 {main}
+CRITICAL - 2021-11-21 12:30:12 --> Undefined variable: user
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\admin\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 21, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Admin.php(9): view('admin/index', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 12:30:21 --> Undefined variable: user
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\admin\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 21, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Admin.php(9): view('admin/index', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 12:30:22 --> Undefined variable: users
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\admin\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 21, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Admin.php(9): view('admin/index', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 12:39:06 --> Undefined variable: user
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\user-profile\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 21, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('user-profile/in...', Array, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\User.php(9): view('user-profile/in...', Array)
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#10 {main}
+CRITICAL - 2021-11-21 12:54:21 --> Cannot use object of type Myth\Auth\Entities\User as array
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/index', Array, true)
+#3 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Admin.php(13): view('admin/index', Array)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#9 {main}
+ERROR - 2021-11-21 13:13:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'users AS U
+           auth_groups_users AS AGU
+      WHERE AGU.user_id = U....' at line 3
+CRITICAL - 2021-11-21 13:13:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'users AS U
+           auth_groups_users AS AGU
+      WHERE AGU.user_id = U....' at line 3
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n      SELECT ...', 0)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('\r\n      SELECT ...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n      SELECT ...')
+#3 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Admin.php(11): CodeIgniter\Database\BaseConnection->query('\r\n      SELECT ...')
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#9 {main}
+ERROR - 2021-11-21 13:14:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'users U
+           auth_groups_users AGU
+      WHERE AGU.user_id = U.id
+  ...' at line 3
+CRITICAL - 2021-11-21 13:14:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'users U
+           auth_groups_users AGU
+      WHERE AGU.user_id = U.id
+  ...' at line 3
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('\r\n      SELECT ...', 0)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('\r\n      SELECT ...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n      SELECT ...')
+#3 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\Admin.php(11): CodeIgniter\Database\BaseConnection->query('\r\n      SELECT ...')
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#9 {main}
+ERROR - 2021-11-21 23:10:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-11-21 23:10:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#12 {main}
+CRITICAL - 2021-11-21 23:10:54 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Users\yerob\xampp\htdocs\ci4login\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Users\\yerob\\...', 96, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\errors\html\error_exception.php(96): print_r(Object(Myth\Auth\Controllers\AuthController), true)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\Users\\yerob\\...')
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Obj
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-21 23:11:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-11-21 23:11:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#12 {main}
+CRITICAL - 2021-11-21 23:11:16 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Users\yerob\xampp\htdocs\ci4login\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Users\\yerob\\...', 96, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\errors\html\error_exception.php(96): print_r(Object(Myth\Auth\Controllers\AuthController), true)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\Users\\yerob\\...')
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Obj
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-21 23:12:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-11-21 23:12:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#12 {main}
+CRITICAL - 2021-11-21 23:12:20 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Users\yerob\xampp\htdocs\ci4login\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Users\\yerob\\...', 96, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\errors\html\error_exception.php(96): print_r(Object(Myth\Auth\Controllers\AuthController), true)
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\Users\\yerob\\...')
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Obj
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-21 23:35:52 --> Undefined variable: base_url
+#0 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\templates\navbar.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 12, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('templates/navba...', NULL, true)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\app\Views\templates\index.php(41): CodeIgniter\View\View->include('templates/navba...')
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\yerob\\...')
+#6 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('templates/index', Array, true)
+#8 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('user-profile/in...', Array, true)
+#9 C:\Users\yerob\xampp\htdocs\ci4login\app\Controllers\User.php(9): view('user-profile/in...', Array)
+#10 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->index()
+#11 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#12 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#15 {main}
+CRITICAL - 2021-11-21 23:57:47 --> Undefined property: Myth\Auth\Config\Auth::$validate
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\yerob\\...', 178, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#6 {main}
+CRITICAL - 2021-11-21 23:59:12 --> Undefined variable: allowedPostFields
+#0 C:\Users\yerob\xampp\htdocs\ci4login\vendor\myth\auth\src\Controllers\AuthController.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yerob\\...', 178, Array)
+#1 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yerob\xampp\htdocs\ci4login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yerob\xampp\htdocs\ci4login\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yerob\\...')
+#6 {main}
